@@ -1,0 +1,20 @@
+<html> 
+  <head> 
+    <title>See You Later!</title> 
+  </head> 
+  <body> 
+    <h1>Goodbye!</h1> 
+    <p> 
+    It was nice having you here. 
+    </p> 
+    <p> 
+      Time to say
+      <%= link_to "Hello!", :action => "hello" -%>
+      <%= link_to "Hello!", :action => "hello" %>
+    </p> 
+    <% 3.times do -%>
+      Hello world!<br>
+    <% end -%>
+
+  </body> 
+</html>
